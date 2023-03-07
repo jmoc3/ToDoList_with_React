@@ -1,0 +1,43 @@
+.taskForm{
+    display: inherit;
+    justify-content: space-between;
+
+    width: 100%;
+    margin-block: 3vmin;
+
+    font-size: 2.5vmin;
+}
+
+.taskName{
+    width: 75%;
+    padding: 1.2vmin 2vmin;
+    
+    border: none;
+    box-shadow: 5px 5px 2px #7b708b4a;
+
+    font-size: inherit;
+    transition: 1s ease all;
+}
+
+.sendBtn{
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+
+    padding: .5vmin 2vmin;
+    
+    color: aliceblue;
+    background-color: #F2A766;
+    border: none;
+    box-shadow: 5px 5px 2px #7b708b4a;
+    
+    font-size: inherit;
+    cursor: pointer;
+    transition: 1s ease all;
+}
+
+.sendBtn:hover, .taskName:hover{
+    transform: translate(-5px,-5px);
+    transition: 1s all ease;
+    box-shadow: 10px 10px 5px #7b708b4a;
+}

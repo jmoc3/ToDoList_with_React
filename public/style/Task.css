@@ -1,0 +1,43 @@
+.parentTask{
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 2.5vmin;
+    margin-block: .5vmin;
+    width: inherit;
+
+    color: rgb(245, 232, 208);
+    background-color: #3084F2;
+    border-radius: 1vmin;
+    box-shadow: 7px 7px 4px #7b708b4a;
+    cursor:pointer;
+    transition: 1s all ease;
+}
+
+
+.completed{
+    color: black;
+    background-color: #85D982;
+    text-decoration: line-through;
+    transition: 1s ease all;
+}
+
+.textHome{
+    width: 100%;
+    padding: 1.5vmin 2.5vmin;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-right: 2.5vmin;
+    color: rgb(245, 232, 208);
+    cursor: pointer;
+}
+
+.iconComplete{
+    color: black;
+    transition: 1s ease all;
+}

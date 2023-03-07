@@ -1,0 +1,51 @@
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+
+  width: 100%;
+  height: 100vh;
+}
+
+.principalContainer{
+
+  display: inherit;
+  flex-direction: column;
+  align-items: center;
+
+  width: 60vmin;
+  min-height: 60vmin;
+  padding: 4.5vmin 10vmin;
+
+  border-radius: 1vmin;
+
+  background-color: #1A1826;
+}
+
+.title{ 
+  color: aliceblue;
+  text-shadow: 5px 5px 2px #3e26634a;
+  cursor: default;
+  font-size: 4.5vmin;
+  transition: 1s ease all;
+}
+
+.principalContainer:hover :is(.title, .taskName, .sendBtn, .parentTask){
+  transform: translate(-5px,-5px);
+  transition: 1s all ease;
+}
+
+.principalContainer:hover :is( .taskName, .sendBtn, .parentTask){
+  box-shadow: 10px 10px 5px #7b708b4a;
+}
+
+.principalContainer:hover .title{
+  text-shadow: 10px 10px 5px #7b708b4a;
+}
+
+.containerTasks{
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+}
